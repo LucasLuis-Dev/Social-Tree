@@ -212,7 +212,7 @@ main .links {
     }
 
     .links a {
-        width: 340px;
+        width: 290px;
     }
 }
 
@@ -226,3 +226,32 @@ main .links {
         width: 290px;
     }  
 }
+
+@media (max-width:300px) {
+
+    main img {
+        width: 150px;
+        height: 150px;
+    }
+
+    main .borda-foto {
+        width: 160px;
+        height: 160px;
+    }
+
+    .links a {
+        width: 90%;
+    }
+}
+
+@media (min-width:510px) and (max-width:1000px) {
+    main {
+        padding: 30px;
+        width: 55%;
+    }
+
+    .links a {
+        width: 290px;
+    }  
+}
+
