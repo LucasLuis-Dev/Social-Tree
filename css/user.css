@@ -1,0 +1,13 @@
+.user__container p {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+
+
+    text-align: center;
+
+    color: var(--mainColor);
+
+    margin-bottom: 3.3rem;
+}

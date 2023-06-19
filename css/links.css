@@ -1,0 +1,52 @@
+.links__container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    width: 100%;
+
+    gap: 1.4rem;
+
+    margin-bottom: 2.5rem;
+}
+
+.links__container a {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    width: 30rem;
+    height: 5rem;
+    text-decoration: none;
+
+    border: 0.3rem solid var(--mainColor);
+  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    
+    text-transform: uppercase;
+
+    color: var(--mainColor);
+
+    border-radius: 3.0rem;
+
+    transition: 200ms;
+
+}
+
+
+.links__container a:hover {
+    cursor: pointer;
+
+    background-color: var(--mainColor);
+    color: white;
+
+}

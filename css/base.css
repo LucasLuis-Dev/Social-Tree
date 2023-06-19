@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600&family=Poppins:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --mainColor: #BB99DD;
+}
+
+body {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #E5E5E5;
+
+    transition: background 0.2s linear;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+
+    padding: 5rem;
+
+    width: 90%;
+
+    border-radius: 1.5rem;
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body.dark {
+    background-color: #232c35;
+}
+
+main.dark {
+    background-color: #36424d;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    main {
+        
+        width: 40%;
+    }
+    
+}
