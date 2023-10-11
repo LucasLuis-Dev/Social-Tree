@@ -31,15 +31,11 @@ main {
     justify-content: center;
     align-items: center;
 
-    background-color: white;
-
     padding: 5rem;
 
     width: 90%;
-
-    border-radius: 1.5rem;
-
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: background 0.2s linear;
+ 
 }
 
 body.dark {
@@ -47,14 +43,13 @@ body.dark {
 }
 
 main.dark {
-    background-color: #36424d;
+    background-color: #232c35;
 }
 
 
 @media screen and (min-width: 1024px) {
 
     main {
-        
         width: 40%;
     }
     

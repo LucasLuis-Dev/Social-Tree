@@ -16,25 +16,24 @@
     display: flex;
 
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
     text-align: center;
 
     width: 30rem;
     height: 5rem;
+    padding: 20px;
     text-decoration: none;
-
-    border: 0.3rem solid var(--mainColor);
   
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 1.6rem;
     line-height: 2.4rem;
     
     text-transform: uppercase;
 
-    color: var(--mainColor);
+    color: white;
 
     border-radius: 3.0rem;
 
@@ -42,11 +41,32 @@
 
 }
 
+.links__container a svg {
+    width: 25px;
+    fill: white;
+}
+
 
 .links__container a:hover {
     cursor: pointer;
 
-    background-color: var(--mainColor);
+    background: var(--mainColor);
     color: white;
-
 }
+
+.linkedin {
+    background-color: #0A66C2;
+}
+
+.github {
+    background-color: black;
+}
+
+.portfolio {
+    background-color: #1F97CB;
+}
+
+.instagram {
+    background: rgb(255,196,45);
+    background: linear-gradient(45deg, rgba(255,196,45,1) 0%, rgba(255,153,0,1) 32%, rgba(211,61,205,1) 71%, rgba(82,0,255,1) 84%, rgba(0,102,255,1) 99%);
+};
