@@ -12,38 +12,21 @@
 
 body {
     display: flex;
-
     align-items: center;
     justify-content: center;
-
+    overflow-x: hidden;
     width: 100vw;
     height: 100vh;
-
-    background-color: #E5E5E5;
-
+    background-color: #f9faff;
     transition: background 0.2s linear;
 }
 
-main {
+.container {
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
-
-    padding: 5rem;
-
-    width: 90%;
     transition: background 0.2s linear;
- 
-}
-
-body.dark {
-    background-color: #232c35;
-}
-
-main.dark {
-    background-color: #232c35;
 }
 
 
